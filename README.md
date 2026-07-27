@@ -38,11 +38,11 @@ android-review doctor
 ## Release Hiện Tại
 
 ```text
-0.1.22
+0.1.23
 ```
 
 SHA256:
 
 ```text
-0f3eeca0143632918e5441df8ae50b837ec00cac79c3c8683715c77111d328af
+a611ef8e2d2b475661160a7f511926ad266ce52dfb484c668d89d4b340d03a73
 ```
