@@ -2,26 +2,30 @@
 
 Repo này chỉ chứa artifact phát hành của `android-review`.
 
-## Cài Đặt Lần Đầu
+## Cài Đặt Một Lệnh
+
+Chạy trong Terminal:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/taptura-studio/android-review-dist/main/install.sh | bash
+```
+
+## Cập Nhật
+
+Từ bản `0.1.19` trở đi, chỉ cần:
+
+```bash
+android-review upgrade
+```
+
+Tool đã có sẵn update URL mặc định, không cần `set-update-url`.
+
+## Cài Đặt Thủ Công
 
 Tải file mới nhất trong thư mục `releases/`, giải nén, rồi chạy:
 
 ```text
 install.command
-```
-
-## Cấu Hình Upgrade
-
-Sau khi cài, chạy một lần:
-
-```bash
-android-review set-update-url https://raw.githubusercontent.com/taptura-studio/android-review-dist/main/latest.json
-```
-
-Các lần sau chỉ cần:
-
-```bash
-android-review upgrade
 ```
 
 ## Kiểm Tra
