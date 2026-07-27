@@ -48,11 +48,11 @@ Scope `ads` chỉ chạy pipeline ads-related và sinh thêm `ads_flow_map.json`
 ## Release Hiện Tại
 
 ```text
-0.1.35
+0.1.36
 ```
 
 SHA256:
 
 ```text
-ea87dbce945eab93f9b99519775b540a8f9400d5d91bc6e641cf212265bfa637
+7665617c2c8bfa02c0d2523987893b36e6ada4de54d65f3d2c8f46f848abdff3
 ```
