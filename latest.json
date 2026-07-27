@@ -1,6 +1,6 @@
 {
-  "version": "0.1.27",
+  "version": "0.1.28",
   "platform": "macos-arm64",
-  "url": "https://raw.githubusercontent.com/taptura-studio/android-review-dist/main/releases/android-review-macos-arm64-v0.1.27-onedir-bundle.zip",
-  "sha256": "15f91594e5fafa3b2cc481b6ef237169750daec376846c3fe44e6a4aabe63659"
+  "url": "https://raw.githubusercontent.com/taptura-studio/android-review-dist/main/releases/android-review-macos-arm64-v0.1.28-onedir-bundle.zip",
+  "sha256": "163a37d5460b6bfaaeffdd891581eb76f71507955d560c29ba67577f7f7aeea8"
 }
