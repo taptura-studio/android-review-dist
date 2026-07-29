@@ -40,7 +40,7 @@ android-review doctor
 ```bash
 android-review /path/to/project --scope ads
 android-review git@github.com:org/app.git release/1.0.3 --scope all
-android-review SM_Funply --scope resources --ai none
+android-review MyAndroidApp --scope resources --ai none
 ```
 
 Scope `ads` chỉ chạy pipeline ads-related và sinh thêm `ads_flow_map.json` kèm bảng placement/show/preload/cache/reward trong HTML report.
@@ -48,11 +48,11 @@ Scope `ads` chỉ chạy pipeline ads-related và sinh thêm `ads_flow_map.json`
 ## Release Hiện Tại
 
 ```text
-0.1.42
+0.1.43
 ```
 
 SHA256:
 
 ```text
-ff00eb35e0062329356c91a65adc5b105af1d51f26a163579ee5c85828b5e358
+3fc1486f8c7af19f180018ec59c7ec25a2a98eca901c7a5a43c92d8ff1cd5e6a
 ```
