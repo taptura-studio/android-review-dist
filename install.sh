@@ -64,7 +64,15 @@ echo "- SHA256: verified"
 mkdir -p "${extract_dir}"
 unzip -q "${zip_path}" -d "${extract_dir}"
 
-runtime_dir="$(find "${extract_dir}" -path '*/android-review/_internal/VERSION' -print -quit | sed 's#/_internal/VERSION$##')"
+runtime_dir=""
+while IFS= read -r version_file; do
+  candidate="${version_file%/_internal/VERSION}"
+  if [[ -x "${candidate}/android-review" || -f "${candidate}/android-review" ]]; then
+    runtime_dir="${candidate}"
+    break
+  fi
+done < <(find "${extract_dir}" -path '*/_internal/VERSION' -print)
+
 if [[ -z "${runtime_dir}" || ! -x "${runtime_dir}/android-review" ]]; then
   echo "Cannot find android-review runtime in downloaded package" >&2
   exit 1
